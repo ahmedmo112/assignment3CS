@@ -13,10 +13,13 @@ def checkthesumofthree(p):
 def checkwin():
     if len(p1) ==4 and len(p2) == 4 and checkthesumofthree(p1) == checkthesumofthree(p2):
         print("drew")
+        exit()
     elif checkthesumofthree(p1):
         print("player 1 wins")
+        exit()
     elif checkthesumofthree(p2) and len(p2)>2:
         print("player 2 wins")
+        exit()
 
 def game():
     while len(number) > 1:
@@ -41,10 +44,3 @@ def game():
 game()
 
 checkwin()
-def tryagain():
-    x = input("you lose plase  to try again press y: ")
-    while x.lower() == 'y':
-        game()
-        number = [1,2,3,4,5,6,7,8,9]
-        p1 = []
-        p2 = []
