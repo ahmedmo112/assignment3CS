@@ -10,7 +10,7 @@ def length_of_word(file):
 length_of_word(file)
 
 def word_length():
-    for i in range(2,20):
+    for i in range(1,20):
         for key , value in dic.items():
             if value == i:
                 print(key,"=>",i)

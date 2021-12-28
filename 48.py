@@ -1,16 +1,5 @@
 
-dic_of_cities={
-    "cairo": "9.54 M",
-    "giza":"8,8 M" ,
-    "alex":"5.23 M" ,
-    "hellwan":"643 th" ,
-    "fayom":"2.1 M" ,
-    "mansora":"1.2 M" ,
-    "aswan":"2 M" ,
-    
-    "luxor":"3 M" ,
-    "domyat":"1 M" ,
-}
+dic_of_cities={"cairo": "9.54 M","giza":"8,8 M" ,"alex":"5.23 M" ,"hellwan":"643 th" ,"fayom":"2.1 M" ,"mansora":"1.2 M" ,"aswan":"2 M" ,"luxor":"3 M" ,"domyat":"1 M" }
 
 def listing_cities_and_there_information(dic_of_cities):
     for key in dic_of_cities:
@@ -41,9 +30,3 @@ if user in ['1','2','3']:
         update_The_dictionary(dic_of_cities)
 else:
     print("the number you enter is uncorrect \nplease chosse a Number from the list\nTry Again")
-
-
-
-
-
-

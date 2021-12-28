@@ -1,8 +1,5 @@
 from math import sqrt
-
-
 coins = int(input("Coins number: "))
-
 while coins > 0:
     z = int(sqrt(coins))
     print(f"The range from 1 to {z}")

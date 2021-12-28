@@ -34,13 +34,6 @@ def calc_date(month,totalDays,year):
     totalDays +=extraDays
 
     month=1
-    # while totalDays<0:
-    #     if daysOfMonth(2)==28:
-    #         totalDays=totalDays+365
-    #     else:
-    #         totalDays=totalDays+366
-    #     year-=1
-
     x = daysOfMonth(month)
 
     while totalDays > x:

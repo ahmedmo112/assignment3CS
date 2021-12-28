@@ -42,5 +42,4 @@ def game():
             checkwin()
 
 game()
-
 checkwin()
