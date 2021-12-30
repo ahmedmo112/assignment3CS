@@ -30,7 +30,7 @@ def game():
             
         p1.append(x)
         number.remove(x)
-        if len(p1)==3:
+        if len(p1)>=3:
             checkwin()
         x = int(input(f"player 2 choose number from {number}: "))
         while x not in number:
@@ -38,7 +38,7 @@ def game():
             x = int(input(f"palyer 2 choose number from {number}: "))
         p2.append(x)
         number.remove(x)
-        if len(p2)==3:
+        if len(p2)>=3:
             checkwin()
 
 game()
